@@ -7,4 +7,4 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.smartindent = true
 
-vim.cmd([[:colorscheme citruszest]])
+vim.cmd([[:colorscheme rose-pine-moon]])
