@@ -16,3 +16,4 @@ config:
 ```
 
 - For Markdown preview to not crash (using Ubuntu), install `xdg-utils`: `apt-get install -y xdg-utils`
+- Install [lazygit](https://github.com/jesseduffield/lazygit#ubuntu)
