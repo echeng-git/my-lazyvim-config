@@ -13,6 +13,7 @@ config:
   MD033: false # allow inline HTML
   MD051: false # allow link fragments
   MD045: false # allow images with no alt text
+  MD029: false # ignore list numbering order
 ```
 
 - For Markdown preview to not crash (using Ubuntu), install `xdg-utils`: `apt-get install -y xdg-utils`
