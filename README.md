@@ -28,9 +28,9 @@ config:
 - For C programming, since I like four spaces in my indentation, perform the following:
 
 ```bash
-$ cd /
-$ sudo touch .clang-format
-$ sudo echo "IndentWidth: 4" > .clang-format
+cd /
+sudo touch .clang-format
+sudo echo "IndentWidth: 4" > .clang-format
 ```
 
 Note: this is very janky, but feel free to add your own `.clang-format` files in the root directories
