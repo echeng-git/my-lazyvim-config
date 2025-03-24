@@ -1,6 +1,6 @@
 # 💤 LazyVim
 
-My template for [LazyVim](https://github.com/LazyVim/LazyVim). [(documentation goes here)](https://lazyvim.github.io/installation) on WSL
+My template for [LazyVim](https://github.com/LazyVim/LazyVim). [(documentation goes here)](https://lazyvim.github.io/installation) on WSL. Trying out Alacritty instead of the Windows terminal...
 
 ## Some dependencies
 
@@ -18,6 +18,11 @@ config:
   MD045: false # allow images with no alt text
   MD029: false # ignore list numbering order
 ```
+
+Make sure that Treesitter has a parser for LaTeX: `:TSInstall latex`.
+
+- This is used for LaTeX snippets in Markdown as well as in LaTeX.
+- You can see if Treesitter has support with `:checkhealth`
 
 #### Python
 
@@ -43,4 +48,4 @@ of whatever you are working on, and that file will be used instead.
 
 ## TODO
 
-Get LaTeX snippets working with inline Markdown, as well as with LaTeX files themselves.
+~~Get LaTeX snippets working with inline Markdown, as well as with LaTeX files themselves.~~
