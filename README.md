@@ -1,6 +1,9 @@
 # 💤 LazyVim
 
-My template for [LazyVim](https://github.com/LazyVim/LazyVim). [(documentation goes here)](https://lazyvim.github.io/installation) on WSL. Trying out Alacritty instead of the Windows terminal...
+My template for [LazyVim](https://github.com/LazyVim/LazyVim) on WSL2. I use [WezTerm](https://wezterm.org/index.html).
+
+- [Installation steps](https://lazyvim.github.io/installation)
+- [WezTerm config](https://github.com/echeng-git/my-wezterm-config)
 
 > My current Alacritty configuration (on Windows, create `%APPDATA%/alacritty/alacritty.toml` with the following contents):
 
@@ -145,3 +148,11 @@ of whatever you are working on, and that file will be used instead.
 
 - For Markdown preview to not crash (using Ubuntu), install `xdg-utils`: `apt-get install -y xdg-utils`
 - Install [lazygit](https://github.com/jesseduffield/lazygit#ubuntu)
+- For image preview, paste the following:
+
+```bash
+# for magick_cli
+sudo apt install imagemagick
+# for magick_rock
+sudo apt install libmagickwand-dev
+```
